@@ -69,22 +69,25 @@ BOT WORKING PROPERLY 🔥"""
 </b>"""
         
     
-    STATUS_TXT = """<b>
-╭━━━📊 𝙎𝙔𝙎𝙏𝙀𝙈 𝙎𝙏𝘼𝙏𝙎 ━━━╮<br>
-┣⪼ 👤 ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{}</code><br>
-┣⪼ 👥 ᴛᴏᴛᴀʟ ɢʀᴏᴜᴘs: <code>{}</code><br>
-┣⪼ 💾 ᴜsᴇʀs ᴅʙ sɪᴢᴇ: <code>{}</code><br>
-┣⪼ 📂 ᴜsᴇʀs ᴅʙ ғʀᴇᴇ: <code>{}</code><br>
-┣⪼ 🗄️ ᴜsᴇʀs ᴅʙ ɴᴀᴍᴇ: <code>{}</code><br>
-┣⪼ 📁 ᴛᴏᴛᴀʟ ғɪʟᴇs: <code>{}</code><br>
-┣⪼ 📦 ғɪʟᴇs ᴅʙ sɪᴢᴇ: <code>{}</code><br>
-┣⪼ 🗃️ ғɪʟᴇs ᴅʙ ғʀᴇᴇ: <code>{}</code><br>
-┣⪼ 🧾 ғɪʟᴇs ᴅʙ ɴᴀᴍᴇ: <code>{}</code><br>
-┣⪼ ⏱️ ᴜᴘᴛɪᴍᴇ: <code>{}</code><br>
-┣⪼ 🧠 ʀᴀᴍ ᴜsᴀɢᴇ: <code>{}%</code><br>
-┣⪼ 🖥️ ᴄᴘᴜ ᴜsᴀɢᴇ: <code>{}%</code><br>
-╰━━━━━━━━━━━━━━━━━━━━━━╯
-</b>
+    STATUS_TXT = """<b>╭━━━📊 𝙎𝙔𝙎𝙏𝙀𝙈 𝙎𝙏𝘼𝙏𝙎 ━━━╮</b><br><br>
+
+👤 <b>Total Users:</b> <code>{}</code><br>
+👥 <b>Total Groups:</b> <code>{}</code><br>
+💾 <b>Users DB Size:</b> <code>{}</code><br>
+📂 <b>Users DB Free:</b> <code>{}</code><br>
+🗄️ <b>Users DB Name:</b> <code>{}</code><br><br>
+
+📁 <b>Total Files:</b> <code>{}</code><br>
+📦 <b>Files DB Size:</b> <code>{}</code><br>
+🗃️ <b>Files DB Free:</b> <code>{}</code><br>
+🧾 <b>Files DB Name:</b> <code>{}</code><br><br>
+
+⏱️ <b>Uptime:</b> <code>{}</code><br>
+🧠 <b>RAM Usage:</b> <code>{}%</code><br>
+🖥️ <b>CPU Usage:</b> <code>{}%</code><br><br>
+
+<b>╰━━━━━━━━━━━━━━━━━━━━━━╯</b>
+
 """
 
     NEW_USER_TXT = """<b>#New_User {}
