@@ -177,12 +177,12 @@ async def start(client:Client, message):
                         buttons = [[
                             InlineKeyboardButton('⇌ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇌', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton("❓ ʜᴇʟᴘ", callback_data='features'),
-                            InlineKeyboardButton('ℹ️ ᴀʙᴏᴜᴛ', callback_data=f'about')
-                        ],[
-                            InlineKeyboardButton('💎 ᴘʀᴇᴍɪᴜᴍ', callback_data='seeplans'),
-                            InlineKeyboardButton('📊 ʀᴇꜰᴇʀ', callback_data="reffff")
-                        ],[
+                        #     InlineKeyboardButton("❓ ʜᴇʟᴘ", callback_data='features'),
+                        #     InlineKeyboardButton('ℹ️ ᴀʙᴏᴜᴛ', callback_data=f'about')
+                        # ],[
+                        #     InlineKeyboardButton('💎 ᴘʀᴇᴍɪᴜᴍ', callback_data='seeplans'),
+                        #     InlineKeyboardButton('📊 ʀᴇꜰᴇʀ', callback_data="reffff")
+                        # ],[
                             InlineKeyboardButton('🔍 ᴍᴏꜱᴛ ꜱᴇᴀʀᴄʜᴇᴅ', callback_data="mostsearch"),
                             InlineKeyboardButton('📈 ᴛᴏᴘ ᴛʀᴇɴᴅɪɴɢ ', callback_data="trending")
                         ]] 
@@ -206,12 +206,12 @@ async def start(client:Client, message):
         buttons = [[
                             InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
-                            InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
-                        ],[
-                            InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
-                            InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
-                        ],[
+                        #     InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
+                        #     InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
+                        # ],[
+                        #     InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
+                        #     InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
+                        # ],[
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                             InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
                         ]] 
@@ -268,12 +268,12 @@ async def start(client:Client, message):
         buttons = [[
             InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
-                            InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
-                        ],[
-                            InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
-                            InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
-                        ],[
+                        #     InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
+                        #     InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
+                        # ],[
+                        #     InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
+                        #     InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
+                        # ],[
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                             InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
                         ]] 
@@ -309,8 +309,8 @@ async def start(client:Client, message):
             buttons = [[
                 InlineKeyboardButton(text="✅ ᴠᴇʀɪғʏ ✅", url=verify),
                 InlineKeyboardButton(text="⁉️ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⁉️", url=howtodownload)
-                ],[
-                InlineKeyboardButton(text="💸 ʙᴜʏ sᴜʙsᴄʀɪᴘᴛɪᴏɴ - ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪғʏ 💸", callback_data='seeplans'),
+                # ],[
+                # InlineKeyboardButton(text="💸 ʙᴜʏ sᴜʙsᴄʀɪᴘᴛɪᴏɴ - ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪғʏ 💸", callback_data='seeplans'),
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             if await db.user_verified(user_id): 
@@ -346,7 +346,7 @@ async def start(client:Client, message):
                 file_caption=file.caption
             )
             btn = [[
-                InlineKeyboardButton("✛ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ ✛", callback_data=f'stream#{file.file_id}')
+                InlineKeyboardButton("🍿🎥 ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 🎥🍿", callback_data=f'stream#{file.file_id}')
             ]]
             toDel = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -386,7 +386,7 @@ async def start(client:Client, message):
         file_caption=files.caption
     )
     btn = [[
-        InlineKeyboardButton("✛ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ ✛", callback_data=f'stream#{file_id}')
+        InlineKeyboardButton("🍿🎥 ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 🎥🍿", callback_data=f'stream#{file_id}')
     ]]
     toDel=await client.send_cached_media(
         chat_id=message.from_user.id,
